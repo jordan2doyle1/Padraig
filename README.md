@@ -4,11 +4,11 @@ PADRAIG (Precise AnDRoid Automated Input Generation) is a Java command line appl
 consisting of a sequence of inputs for an Android application. The application under test is launched on an 
 Android emulator and one of three supported generation methods is used to apply test inputs: 
 
-* Random: Inputs are chosen randomly, without repetition, from a set of available inputs, i.e. a random input is 
+* **Random**: Inputs are chosen randomly, without repetition, from a set of available inputs, i.e. a random input is 
   chosen until an unused input is selected. Once chosen the input is added to the generated test sequence.
-* Systematic: Inputs are chosen systematically without repetition, i.e. the next available input is chosen assuming 
+* **Systematic**: Inputs are chosen systematically without repetition, i.e. the next available input is chosen assuming 
   it has not already been used. Once chosen the input is added to the generated test sequence.
-* Model: An extended control flow model created by [Droid Graph](https://github.com/jordan2doyle1/DroidGraph) is used 
+* **Model**: An extended control flow model created by [Droid Graph](https://github.com/jordan2doyle1/DroidGraph) is used 
   to determine the potential coverage gain provided by an input. Inputs with the highest coverage gain are chosen 
   and added to the generated test sequence.
 
