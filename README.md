@@ -12,6 +12,17 @@ Android emulator and one of three supported generation methods is used to apply 
   to determine the potential coverage gain provided by an input. Inputs with the highest coverage gain are chosen 
   and added to the generated test sequence.
 
+#### Publication:
+```
+@inproceedings{doyle2024padraig,
+  title={PADRAIG: Precise AnDRoid Automated Input Generation},
+  author={Doyle, Jordan and Laurent, Thomas and Ventresque, Anthony},
+  booktitle={2024 International Conference on Software Quality, Reliability, and Security (QRS)},
+  year={2024},
+  note={Status: accepted and presented at QRS.}
+}
+```
+
 ### Dependencies ###
 
 The model-based approach used by PADRAIG relies on the extended control flow model created by [Droid Graph](https://github.com/jordan2doyle1/DroidGraph) 
