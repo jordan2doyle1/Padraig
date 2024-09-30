@@ -15,11 +15,12 @@ Android emulator and one of three supported generation methods is used to apply 
 #### Publication:
 ```
 @inproceedings{doyle2024padraig,
-  title={PADRAIG: Precise AnDRoid Automated Input Generation},
+  title={PADRAIG: Precise Android Automated Input Generation},
   author={Doyle, Jordan and Laurent, Thomas and Ventresque, Anthony},
-  booktitle={2024 International Conference on Software Quality, Reliability, and Security (QRS)},
+  booktitle={2024 IEEE 24th International Conference on Software Quality, Reliability and Security (QRS)},
+  pages={72--83},
   year={2024},
-  note={Status: accepted and presented at QRS.}
+  organization={IEEE}
 }
 ```
 
